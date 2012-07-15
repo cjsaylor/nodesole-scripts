@@ -1,4 +1,4 @@
-Nodesole Scripts is a central repo for all public nodesole extension scripts.
+Nodesole Scripts is a central repo for all public [Nodesole](https://github.com/cjsaylor/nodesole) extension scripts.
 
 ## Installing scripts
 
