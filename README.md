@@ -51,7 +51,7 @@ module.exports = (command) ->
 
 The concept and structure of the "plugin" script architecture is inspired by Github's [Hubot](http://hubot.github.com/)
 
-### License
+## License
 
 (The MIT License)
 
