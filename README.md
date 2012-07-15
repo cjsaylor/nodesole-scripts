@@ -47,7 +47,7 @@ module.exports = (command) ->
 * `sendAll(packet, event)` - Send a message to all users.
 * `createMessageText(message, type)` - Useful utility method for contructing the message object.
 
-### Acknowledgments
+## Acknowledgments
 
 The concept and structure of the "plugin" script architecture is inspired by Github's [Hubot](http://hubot.github.com/)
 
