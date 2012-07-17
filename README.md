@@ -47,6 +47,26 @@ module.exports = (command) ->
 * `sendAll(packet, event)` - Send a message to all users.
 * `createMessageText(message, type)` - Useful utility method for contructing the message object.
 
+## Development
+
+Install the development portion for developing scripts and adding spec testing:
+
+```shell
+npm install
+```
+
+## Testing
+
+The scripting repo uses [Jasmine Node](https://github.com/mhevery/jasmine-node).
+
+To run the tests, run the following command:
+
+```shell
+jasmine-node --verbose --coffee ./tests/spec/
+```
+
+When submitting new scripts or changes to existing scripts, a test spec located under `tests/spec/` should be provided as part of the pull request.
+
 ## Acknowledgments
 
 The concept and structure of the "plugin" script architecture is inspired by Github's [Hubot](http://hubot.github.com/)

@@ -4,7 +4,7 @@
 #     host - full path to tshock api endpoint
 #     port - host endpoint port
 http = require 'http'
-config = require './tshock.json';
+config = require __dirname + '/tshock.json';
 
 module.exports = (command) ->
 
