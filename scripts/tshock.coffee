@@ -8,7 +8,7 @@ config = require './tshock.json';
 
 module.exports = (command) ->
 
-  command.addHelpString '\ttshock - Get info from a tshock terraria server.'
+  command.addHelpString '\ttshock help - Get info from a tshock terraria server.'
 
   command.register 'command-request', (message) ->
     if /^tshock help$/i.test message.data.command
